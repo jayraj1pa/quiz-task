@@ -1,0 +1,97 @@
+/* Quiz.css */
+
+/* Use a custom font for the quiz app */
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+/* Set the font and background color for the whole app */
+* {
+  font-family: 'Roboto', sans-serif;
+   background: linear-gradient(to right, #3494E6, #EC6EAD); 
+  /* You can adjust the background gradient colors and direction */
+}
+
+/* Style the h1 element */
+h1 {
+  text-align: center;
+  color: #333;
+  margin: 20px 0;
+}
+
+/* Style the h2 element */
+h2 {
+  text-align: center;
+  color: black;
+  margin: 10px 0;
+}
+
+/* Style the h3 element */
+h3 {
+  text-align: center;
+  color: #333;
+  margin: 10px 0;
+}
+
+/* Style the ul element */
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 auto;
+  width: 80%;
+  max-width: 600px;
+}
+
+/* Style the li element */
+li {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 15px;
+  margin: 10px 0;
+  cursor: pointer;
+  /* Add a box shadow for a subtle effect */
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the li element when hovered */
+li:hover {
+  background-color: black;
+  color: white;
+}
+
+/* Style the final results div */
+.final-results {
+  text-align: center;
+  margin: 20px 0;
+}
+
+/* Style the restart button */
+button {
+  background-color: #EC6EAD;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  /* Add a box shadow for a raised effect */
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Style the restart button when hovered */
+button:hover {
+  background-color: #D1499A;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(5, 5, 57);
+}
+
+.quest{
+    border:2px solid grey;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: white;
+}
+
